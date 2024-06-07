@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class WebController {
-    @GetMapping("/")
+	
+	
+    @RequestMapping(value="/hello")
     public String getMessage()
     {
         return "Spring Boot Application running on Tomcat server!!";

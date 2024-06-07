@@ -14,7 +14,7 @@ public class SpringtomcatApplication extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(SpringtomcatApplication.class);
+		return builder.sources(WebController.class);
 	}
 
 }
