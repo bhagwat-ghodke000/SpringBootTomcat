@@ -12,6 +12,6 @@ public class WebController {
     @RequestMapping(value="/hello")
     public String getMessage()
     {
-        return "Spring Boot Application running on Tomcat server!!";
+        return "Spring Boot Application running on Tomcat server";
     }
 }
